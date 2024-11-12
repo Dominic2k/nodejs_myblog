@@ -1,0 +1,30 @@
+{
+  "name": "personal_blog",
+  "version": "1.0.0",
+  "description": "My first project with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dominic2k/nodejs_myblog.git"
+  },
+  "keywords": [
+    "Dominic2k",
+    "blog"
+  ],
+  "author": "Dominic2k",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dominic2k/nodejs_myblog/issues"
+  },
+  "homepage": "https://github.com/Dominic2k/nodejs_myblog#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
